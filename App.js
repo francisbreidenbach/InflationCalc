@@ -9,6 +9,7 @@
 import React from 'react';
 import {Button, StyleSheet, View} from 'react-native';
 import Crashes from 'appcenter-crashes';
+import Analytics from 'appcenter-analytics';
 
 export default class App extends React.Component {
   constructor() {
@@ -27,7 +28,15 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Button title="Crash" onPress={() => Crashes.generateTestCrash()} />
+        <Button
+          title="Calculate Inflation"
+          onPress={() =>
+            Analytics.trackEvent('calculate_inflation', {
+              Internet: 'WiFi',
+              GPS: 'off',
+            })
+          }
+        />
       </View>
     );
   }
