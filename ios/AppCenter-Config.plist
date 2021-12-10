@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+AppCenter-Config.plist
+InflationCalc
+
+Created by Francis Breidenbach on 12/9/21.
+Copyright (c) 2021 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+  <dict>
+    <key>AppSecret</key>
+    <string>572df510-7c39-46bb-97e1-a81f5b47f648</string>
+  </dict>
+</plist>
